@@ -1,7 +1,5 @@
 <script lang="ts">
-    const base = "/Project-Technology";
-    export const fallback = true;
-    export const prerender = true
+    import { base } from '$app/paths';
 </script>
 
 <header>
