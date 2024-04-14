@@ -2,7 +2,7 @@
     <h1>Practica 1</h1>
     <h2>Infografía acerca del internet</h2>
     <section>
-        <img src="src/lib/practica1.png" />
+        <img src="/practica1.png" />
         <a href="https://www.canva.com/design/DAGB7bN5s9o/NRUyKdkwvf1dlVKZ5hYDWA/edit?utm_content=DAGB7bN5s9o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
             Enlace a la imagen
         </a>
