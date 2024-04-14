@@ -21,7 +21,6 @@ const config = {
 		  prerender: {
 			default: true,
 		  },
-		  trailingSlash: 'always',
 		  paths: {
 			base: dev ? '' : '/Project-Technology',
 		  },
