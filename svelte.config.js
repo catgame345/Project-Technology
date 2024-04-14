@@ -15,12 +15,9 @@ const config = {
 		adapter: adapter({
 			pages: 'build',
 			assets: 'build',
-			fallback: null,
+			fallback: 'index.html',
 			precompress: false,
 		  }),
-		  prerender: {
-			default: true,
-		  },
 		  paths: {
 			base: dev ? '' : '/Project-Technology',
 		  },
