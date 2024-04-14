@@ -10,7 +10,7 @@ git checkout -b master
 
 git add -A
 
-git commit -m "deploy second"
+git commit -m "deploy tertiary"
 
 git push -f git@github.com:catgame345/Project-Technology.git main:gh-pages
 
