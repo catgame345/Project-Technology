@@ -7,6 +7,7 @@
             <li><em>Diego Axel Rivas Luvian</em></li>
             <li><em>Raúl Santiago Segundo Sanchez</em></li>
             <li><em>Mauro Emiliano Patlan Hernández</em></li>
+            <li><em>Gerardo León Sánchez Galvez</em></li>
         </ul>
     </div>
 </footer>

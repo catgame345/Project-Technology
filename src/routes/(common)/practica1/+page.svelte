@@ -1,7 +1,3 @@
-<script>
-  //https://www.canva.com/design/DAGB7bN5s9o/NRUyKdkwvf1dlVKZ5hYDWA/edit?utm_content=DAGB7bN5s9o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton
-</script>
-
 <main>
   <h1>Internet</h1>
   <div class="main">
@@ -68,13 +64,24 @@
       <h2>Infografías</h2>
       <section class="text">
         <div class="inf">
-          <img src="/images/practica1.png" height="360px" width="360px" alt="fbgehu" />
+          <img src="https://www.dropbox.com/scl/fi/vpnu25mv9td7g36ytxqs0/practica1.png?rlkey=p27zb82qobgwzup9kqdptpvog&st=74b30p93&raw=1" height="360px" width="360px" alt="Infografía de Eduardo" />
           <a href="https://www.canva.com/design/DAGB7bN5s9o/NRUyKdkwvf1dlVKZ5hYDWA/edit?utm_content=DAGB7bN5s9o&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton">
             <h4>
                 Link de la infografía
             </h4>
           </a>
           <h4>Hecha por <em>Eduardo Adler Cruz Velázquez</em></h4>
+        </div>
+        <div class="inf">
+          <img src="https://www.dropbox.com/scl/fi/ffwyofvaianyr3xz6x5iu/practica1L.jpg?rlkey=s5w6zot03o7fmz4twunc3mrco&st=ogpv52w0&raw=1" height="360px" width="360px" alt="Infografía de León" />
+          <a href="https://photos.app.goo.gl/3ccv2Pi32wb4musJ8">
+            <h4>
+              Link de la infografía
+            </h4>
+          </a>
+          <h4>
+            Hecha por <em>Gerardo León Sánchez Galvez</em>
+          </h4>
         </div>
       </section>
     </article>
@@ -138,5 +145,8 @@
   a {
     color: darkslateblue;
     text-decoration: none;
+  }
+  img {
+    border-radius: 9999px;
   }
 </style>

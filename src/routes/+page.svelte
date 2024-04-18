@@ -1,5 +1,7 @@
 <main>
-    <h1>Página Proyectos</h1>
+    <div class="title">
+        <h1>PractiWeb</h1>
+    </div>
     <div class="ani">
     <h2>Bienvenido a esta página usuario</h2>
     <h3>En está página encontrara cada proyecto que hemos hecho alrededor del <em>Tercer Trimestre</em></h3>
@@ -10,16 +12,19 @@
         <div>
         <ul>
             <li>
-                Raúl Santiago Segundo Sanchez.<br />Le gusta el fútbol, el básquetbol <br />y jugar videojuegos como Minecraft, <br />Clash Royale y Geometry Dash.
+                <em>Raúl Santiago Segundo Sanchez</em>.<br />Le gusta el fútbol, el básquetbol <br />y jugar videojuegos como Minecraft, <br />Clash Royale y Geometry Dash.
             </li>
             <li>
-                Diego Axel Rivas Luvian.<br />Le gusta jugar videojuegos como Call of Duty y WWE.
+                <em>Diego Axel Rivas Luvian</em>.<br />Le gusta jugar videojuegos<br /> como Call of Duty y WWE.
             </li>
             <li>
-                Mauro Emiliano Patlan Hernández.<br />Le gusta jugar videojuegos como <br />Mortal Kombat XL y Warzone
+                <em>Mauro Emiliano Patlan Hernández</em>.<br />Le gusta jugar videojuegos como <br />Mortal Kombat XL y Warzone.
             </li>
             <li>
-                Eduardo Adler Cruz Velázquez.<br />Le gusta escuchar música de varios géneros músicales, <br />pero especialmente música electrónica de <br /> algunos DJs como: Alan Walker, David Guetta o Monstercat.
+                <em>Eduardo Adler Cruz Velázquez</em>.<br />Le gusta escuchar música de varios géneros músicales, <br />pero especialmente música electrónica de <br /> algunos DJs como: Alan Walker, David Guetta o Monstercat.
+            </li>
+            <li>
+                <em>Gerardo León Sánchez Galvez.</em><br />Le encantan los trenes y<br />armar cubos rubik.
             </li>
         </ul>
         </div>
@@ -44,8 +49,11 @@
     main {
         font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
     }
-    .ani {
+    .ani, .title {
         animation: anim 0.5s ease-in-out forwards;
     }
     section {
@@ -67,6 +75,7 @@
     }
     ul {
         display: inline-block;
+        list-style-type: none;
         
     }
     article {
@@ -95,11 +104,14 @@
         }
     }
     h1 {
-        color: darkmagenta;
+        color: rgb(23 37 84);
         font-weight: bold;
         font-size: 200px;
         border: 3px;
         border-color: blueviolet;
         animation: aparecer 0.5s ease-in-out forwards;
+    }
+    .title {
+        background-color: rgb(8 145 178);
     }
 </style>
