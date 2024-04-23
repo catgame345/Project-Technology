@@ -131,10 +131,19 @@
   .inf {
     margin-top: 17.5px;
   }
+  @keyframes anim {
+        from {
+            transform: translateX(-100%);
+        }
+        to {
+            transform: rotateX(0);
+        }
+    }
   .main {
     background-color: rgb(59 130 246);
     margin-right: 200px;
     margin-left: 200px;
+    animation: anim 0.5s ease-in-out forwards;
   }
   .image {
     border-start-end-radius: 9999px;
@@ -149,4 +158,15 @@
   img {
     border-radius: 9999px;
   }
+  @keyframes aparecer {
+        from {
+            transform: scale(0);
+        }
+        to {
+            transform: scale(1);
+        }
+    }
+    h1 {
+      animation: aparecer 0.5s ease-in-out forwards;
+    }
 </style>
