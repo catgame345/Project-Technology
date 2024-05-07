@@ -169,4 +169,8 @@
     h1 {
       animation: aparecer 0.5s ease-in-out forwards;
     }
+    a {
+        text-decoration: none;
+        color: darkslateblue;
+    }
 </style>

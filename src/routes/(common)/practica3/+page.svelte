@@ -1,3 +1,7 @@
+<script>
+    import { base } from "$app/paths";
+</script>
+
 <main>
     <h1>Pantallas / Monitores</h1>
 
@@ -52,6 +56,12 @@
           </section>
         </article>
       </div>
+    
+    <div>
+        <div class="enlace">
+            <a href="{base}/ahorcado">Juego del ahorcado</a>
+        </div>
+    </div>
 </main>
 
 <style>
@@ -81,6 +91,26 @@
         to {
             transform: rotateX(0);
         }
+    }
+
+    .enlace {
+        background-color: rgb(36, 94, 218);
+        border-end-end-radius: 6px;
+        border-end-start-radius: 6px;
+        border-start-end-radius: 6px;
+        border-start-start-radius: 6px;
+        margin-bottom: 13px;
+        margin-right: 600px;
+        margin-left: 600px;
+        padding-bottom: 17.5px;
+        padding-top: 17.5px;
+        padding-left: 35px;
+        padding-right: 35px;
+    }
+
+    a {
+        text-decoration: none;
+        color: darkslateblue;
     }
 
     .inf {

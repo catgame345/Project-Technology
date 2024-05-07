@@ -190,6 +190,11 @@
         }
     }
 
+    a {
+        text-decoration: none;
+        color: darkslateblue;
+    }
+
   .box {
     background-color: rgb(59 130 246);
     margin-right: 200px;
