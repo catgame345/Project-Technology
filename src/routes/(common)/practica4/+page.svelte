@@ -222,7 +222,6 @@
 
   .lista {
     display: inline-block;
-    font-weight: bold;
   }
 
   .image {
