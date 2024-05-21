@@ -1,4 +1,4 @@
-import{s as i,n as a}from"../chunks/scheduler.BvLojk_z.js";import{S as c,i as r,e as d,c as l,g as o,b as p,d as m,h as k}from"../chunks/index.BmXnOb3Q.js";function u(t){let e,n=`<h1 class="svelte-pmn2j8">Internet</h1> <div class="main svelte-pmn2j8"><article class="svelte-pmn2j8"><h2>¿Qué es Internet?</h2> <section class="text svelte-pmn2j8"><p>Internet es una red global, la cuál se consolido como una red libre
+import{s as i,n as a}from"../chunks/scheduler.BvLojk_z.js";import{S as c,i as r,e as d,c as l,g as o,f as p,h as m,d as k}from"../chunks/index.CE9Sogl3.js";function u(t){let e,n=`<h1 class="svelte-pmn2j8">Internet</h1> <div class="main svelte-pmn2j8"><article class="svelte-pmn2j8"><h2>¿Qué es Internet?</h2> <section class="text svelte-pmn2j8"><p>Internet es una red global, la cuál se consolido como una red libre
           abierta a todo público en <em>1981</em>. Su finalidad es permitir el
           intercambio de información entre todos sus usuarios. Con Internet
           podemos enviar mensajes, usar programas, ver videos, consultar
